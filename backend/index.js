@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 initSocket(server);
 
-const allowedOrigins = "http://localhost:5173";
+const allowedOrigins = "https://chat-flow-i05zq4qvr-tonys-projects-820cffb4.vercel.app";
 
 app.use(cors({
     origin: allowedOrigins,
