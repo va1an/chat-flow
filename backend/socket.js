@@ -5,7 +5,7 @@ let io;
 export const initSocket = (server) => {
     io = new Server(server, {
         cors: {
-            origin: "https://chat-flow-i05zq4qvr-tonys-projects-820cffb4.vercel.app",
+            origin: "https://chat-flow-ruddy.vercel.app",
             credentials: true
         }
     });
